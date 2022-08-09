@@ -10,6 +10,13 @@ const Camera = (deviceId) => {
   let cameraW = 1280;
   let cameraH = 720;
   let cameraFR = 25;
+
+  const constraints = {
+    audio: false,
+    video: true
+  };
+
+
   var camera1Options = {
     // audio: false,
     // video: { facingMode: "environment" },
@@ -22,7 +29,7 @@ const Camera = (deviceId) => {
     },
   };
 
-    const mediaStream = useUserMedia(camera1Options);
+    const mediaStream = useUserMedia(constraints);
    
 
 

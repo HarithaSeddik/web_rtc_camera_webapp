@@ -15,35 +15,36 @@ const CameraPage = () => {
     );
   };
 
-  const onDeviceSelected = (selectedDevice) => {
-    setSelectedDevice(selectedDevice);
-  };
+  // const onDeviceSelected = (selectedDevice) => {
+  //   setSelectedDevice(selectedDevice);
+  // };
 
-  const onCameraToggle = () => {
-    if (selectedDevice == null) {
-      setCameraState(false);
-      return;
-    }
-    setCameraState(!cameraState);
-    console.log(`show Camera State: ${cameraState}`);
-  };
+  // const onCameraToggle = () => {
+  //   if (selectedDevice == null) {
+  //     setCameraState(false);
+  //     return;
+  //   }
+  //   setCameraState(!cameraState);
+  //   console.log(`show Camera State: ${cameraState}`);
+  // };
   
   
-  const renderCamera = () => {
-    if (selectedDevice != null && cameraState) {
-      return <Camera deviceId={selectedDevice} />;
-    }
-  };
+  // const renderCamera = () => {
+  //   if (selectedDevice != null && cameraState) {
+  //     return <Camera deviceId={selectedDevice} />;
+  //   }
+  // };
 
 
 
   return (
     <div className="CameraPage">
       {TitleDiv()}
-      <DeviceMenu onDeviceSelected={onDeviceSelected} />
+      {/* <DeviceMenu onDeviceSelected={onDeviceSelected} /> */}
 
-      <ControlsBar onCameraToggle={onCameraToggle} cameraState={cameraState} />
-      {renderCamera()}
+      {/* <ControlsBar onCameraToggle={onCameraToggle} cameraState={cameraState} /> */}
+      {/* {renderCamera()} */}
+      <Camera/>
     </div>
   );
 };
