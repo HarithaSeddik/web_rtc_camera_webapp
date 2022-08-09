@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  /* display: flexbox; */
+}
+
+.titleDiv {
+  color: blue;
+}
+
+.controlsBar {
+  /* background-color: red; */
+
+  /* display: flex;
+  justify-content: center;
+  vertical-align: middle; */
+  vertical-align: middle;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.deviceMenuDropdown {
+  width: 200px;
+  margin: 25px 25px 25px 25px;
+}
+.deviceMenuContainer {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  margin-bottom: 50px;
+  /* background-color: red; */
+  /* display: inline-flexbox; */
+}
+.selectedDevice {
+  height: 80px;
+  width: 150px;
+  background-color: rgba(172, 173, 166, 0.212);
+  padding: 0px 10px 0px 10px;
+  display: block;
+  align-items: center;
+  border: 1px solid red;
+}
+
+video {
+  background: #222;
+  margin: 40px 0 20px 0;
+  --width: 70%;
+  width: var(--width);
+
+  --height: 30vh;
+  height: 30vh;
+  height: calc(var(--width) * 0.75);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 0 auto 0 auto;
+  max-width: 60em;
+  padding: 1em 1.5em 1.3em 1.5em;
+  word-break: break-word;
+}

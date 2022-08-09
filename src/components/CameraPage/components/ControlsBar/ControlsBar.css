@@ -1,0 +1,13 @@
+.controlsBar {
+  display: flex;
+  /* background-color: red; */
+  height: 5vh;
+  /* width: 20vw; */
+  justify-content: space-evenly;
+  /* align-items: stretch; */
+}
+
+.controlsButton {
+  margin: 20px;
+  padding: 20px;
+}
