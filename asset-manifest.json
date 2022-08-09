@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/web_rtc_camera_webapp/static/css/main.32d923b8.css",
-    "main.js": "/web_rtc_camera_webapp/static/js/main.915d7c61.js",
+    "main.js": "/web_rtc_camera_webapp/static/js/main.99803915.js",
     "static/js/787.c9640751.chunk.js": "/web_rtc_camera_webapp/static/js/787.c9640751.chunk.js",
     "index.html": "/web_rtc_camera_webapp/index.html",
     "main.32d923b8.css.map": "/web_rtc_camera_webapp/static/css/main.32d923b8.css.map",
-    "main.915d7c61.js.map": "/web_rtc_camera_webapp/static/js/main.915d7c61.js.map",
+    "main.99803915.js.map": "/web_rtc_camera_webapp/static/js/main.99803915.js.map",
     "787.c9640751.chunk.js.map": "/web_rtc_camera_webapp/static/js/787.c9640751.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32d923b8.css",
-    "static/js/main.915d7c61.js"
+    "static/js/main.99803915.js"
   ]
 }
