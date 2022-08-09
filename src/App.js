@@ -9,7 +9,8 @@ function App() {
 
       <div className="App">
         {/* <Route path="cameraPage" component={CameraPage}/> */}
-        <CameraPage />
+        <div>Hello world</div>
+        {/* <CameraPage /> */}
       </div>
   );
 }
