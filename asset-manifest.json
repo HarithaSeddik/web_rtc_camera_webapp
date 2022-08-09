@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-camera-webapp/static/css/main.32d923b8.css",
-    "main.js": "/my-camera-webapp/static/js/main.d012272c.js",
-    "static/js/787.c9640751.chunk.js": "/my-camera-webapp/static/js/787.c9640751.chunk.js",
-    "index.html": "/my-camera-webapp/index.html",
-    "main.32d923b8.css.map": "/my-camera-webapp/static/css/main.32d923b8.css.map",
-    "main.d012272c.js.map": "/my-camera-webapp/static/js/main.d012272c.js.map",
-    "787.c9640751.chunk.js.map": "/my-camera-webapp/static/js/787.c9640751.chunk.js.map"
+    "main.css": "/web_rtc_camera_webapp/static/css/main.32d923b8.css",
+    "main.js": "/web_rtc_camera_webapp/static/js/main.2590fa88.js",
+    "static/js/787.c9640751.chunk.js": "/web_rtc_camera_webapp/static/js/787.c9640751.chunk.js",
+    "index.html": "/web_rtc_camera_webapp/index.html",
+    "main.32d923b8.css.map": "/web_rtc_camera_webapp/static/css/main.32d923b8.css.map",
+    "main.2590fa88.js.map": "/web_rtc_camera_webapp/static/js/main.2590fa88.js.map",
+    "787.c9640751.chunk.js.map": "/web_rtc_camera_webapp/static/js/787.c9640751.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32d923b8.css",
-    "static/js/main.d012272c.js"
+    "static/js/main.2590fa88.js"
   ]
 }
